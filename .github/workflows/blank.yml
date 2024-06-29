@@ -37,10 +37,10 @@ jobs:
         run: |
           echo "Add other actions to build,"
           echo "test, and deploy your project."
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    build: true
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+  jobs:
+    test:
+      runs-on: ubuntu-latest
+      build: true
+      steps:
+        - name: Checkout repository
+          uses: actions/checkout@v2
